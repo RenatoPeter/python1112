@@ -1,0 +1,109 @@
+for i in range(10, 0, -1):
+    if(i % 2):
+        print(i)
+
+
+
+
+===============================================
+
+
+
+
+print("Adj meg egy szót")
+a = input('')
+print("Adj meg egy számot")
+b = int(input(''))
+
+for i in range(b):
+    print(a)
+
+
+
+===============================================
+
+
+
+
+import random
+
+b = 0
+for i in range(12, 1, -1):
+    a = random.randint(0, 20)
+    if (a % 3 == 0):
+        b = b+1
+        print(a)
+
+print("")
+print(b, "db szám volt.")
+
+
+
+===============================================
+
+
+
+print("Adj meg egy számot")
+a = int(input(''))
+print("Adj meg egy másik számot")
+b = int(input(''))
+
+
+if( a > b):
+    for i in range(a, b-1, -2):
+        print(i)
+else:
+    for i in range(a, b+1, 2):
+        print(i)
+
+
+
+===============================================
+
+
+
+for i in range(5):
+    for j in range(i):
+        print('0', end='')
+    print()
+
+
+
+===============================================
+
+
+
+for i in range(5):
+    for j in range(i):
+        print('X', end='')
+    print()
+
+for i in range(4,0,-1):
+    for j in range(i-1):
+        print('X', end='')
+    print()
+
+
+
+===============================================
+
+
+
+print("Adj meg egy számot")
+a = int(input(''))
+
+for i in range(a+1):
+    for j in range(i):
+        print('X', end='')
+    print()
+
+for i in range(a,0,-1):
+    for j in range(i-1):
+        print('X', end='')
+    print()
+
+
+
+===============================================
+
+
