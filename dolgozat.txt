@@ -1,0 +1,13 @@
+szam1 = int(input("Szám 1: "))
+szam2 = int(input("Szám 2: "))
+szam3 = int(input("Szám 3: "))
+
+legnagyobb = szam1
+
+if szam2 > legnagyobb:
+    legnagyobb = szam2
+    
+if szam3 > legnagyobb:
+    legnagyobb = szam3
+
+print("A legnagyobb szám:", legnagyobb)
